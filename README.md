@@ -1,5 +1,3 @@
-# alif-san-diego-workshop
-
 # **Setup and Deployment of AI/ML Models onto the Alif Ensemble E8**
 
 This document outlines the step-by-step process a machine learning application onto the Alif Semiconductor's Ensemble E8 Development Kit, as seen in the workshop, *Hands-on Edge AI: Model Deployment and Security with Alif & Thistle*.
