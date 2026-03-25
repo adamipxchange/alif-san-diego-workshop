@@ -134,7 +134,7 @@ cmake -DTARGET_PLATFORM=alif \
 -DCONSOLE_UART=4 \
 -DCMAKE_BUILD_TYPE=Release \
 -DMLEK_LOG_LEVEL=MLEK_LOG_LEVEL_DEBUG \
--DUSE_CASE_BUILD=alif_img_class
+-DUSE_CASE_BUILD=alif_img_class \
 -DETHOS_U_NPU_ID=U85 ..
 
 
@@ -230,17 +230,17 @@ Before connecting the USB cable, the engineer must verify the hardware switches 
 ```bash
 cd ~/app-release-exec-linux
 
-./update_system_package
+./update-system-package
 ```
 *Note: On first run, the tool will ask which serial port the board is connected to. It will list available ports and appropriate one must be selected (for example: `/dev/ttyACM0`)*
 
 **3. Generate ATOC & flash to MRAM**
 ```bash
 # Generate the ATOC file using the JSON file created earlier
-./app_gen_toc -f build/config/kws_IC_demo.json
+./app-gen-toc -f build/config/kws_IC_demo.json
 
 # Write to MRAM
-./app_write_mram -p
+./app-write-mram -p
 ```
 
 ---
