@@ -230,7 +230,7 @@ Before connecting the USB cable, the engineer must verify the hardware switches 
 ```bash
 cd ~/app-release-exec-linux
 
-./update-system-package
+./updateSystemPackage
 ```
 *Note: On first run, the tool will ask which serial port the board is connected to. It will list available ports and appropriate one must be selected (for example: `/dev/ttyACM0`)*
 
